@@ -1,66 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
 html {
  text-rendering: optimizeLegibility;
  font-family: Arial,sans-serif;
- font-size: 1vw;
- margin: 0 !important;
- padding: 0;
+ 
+ text-align: center;
  width: 100%;
+ display: flex;
+ flex-direction: column;
 }
-main {
-  color: black;
-  font-family: Arial,sans-serif ;
-  text-align: center;
-  width: 100vw;
-}
+
 h1 {
   padding:1vw;
   margin:3vw;
   color: white;
   text-shadow: 0 0 0.7rem navy;
+  font-size: 5vw;
+}
 
-}
-.head {
-  padding: 1.25vw;
-  margin: 1vw;
-  color: black;
-  background: linear-gradient(90deg, #f291ff, #fc6b6b, #1FA2FF, #91fff0  );
-  box-shadow: inset 0 0 1vw black;
-  background-size: 700vw 700vw;
-  -moz-animation:color 5s ease-in-out infinite;
-  -webkit-animation: color 5s ease-in-out infinite;
-  animation: color 10s ease-out infinite;
-}
-@-webkit-keyframes color {
-  0%{background-position:1% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
-}
-@-moz-keyframes color {
-  0%{background-position:10% 0% 0 0}
-  50%{background-position:91% 100% 0 0}
-  100%{background-position:10% 0% 100% 100%}
-}
-@keyframes color { 
-  0%{background-position:1% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:0% 1%}
-}
 ul {
   align-items: center;
   align-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 p {
-  margin: 3vw 10vw;
+  margin: 10vw 8vw;
   text-align: justify;
-  padding: 1vw 1vw;
+  padding: 0.5vw 0.5vw;
   font-family: 'Playstation SST',Arial,Helvetica,sans-serif;
-  font-size: 0.9375vw;
+  font-size: 4vw;
   line-height: 1.8;
   letter-spacing: 0.0125vw;
 }
@@ -77,6 +52,7 @@ p {
   margin: 0;
   margin-top: 5vw;
   background: linear-gradient(to right,#00439c, #1FA2FF,  #00439c );
+  font-size: 4vw;
 }
 h3 {
   max-width: 25vw;
@@ -105,8 +81,8 @@ h3 {
   float: left;
   color: black;
   text-align: center;
-  padding: 1.25vw ;
-  font-size: 1.2vw;
+  padding: 5vw ;
+  font-size: 8vw;
   text-decoration: none;
   background-color: white;
 }
@@ -131,9 +107,4 @@ text-align: center;
 .left, .right {
   float: left;
   width: 20vw;
-}
-
-.main {
-  float: left;
-  width: 60vw; 
 }

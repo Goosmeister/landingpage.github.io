@@ -27,8 +27,8 @@
   }
 
   iframe {
-  width: 90vw;
-  height: 45vw;
+  width: 60vw;
+  height: 35vw;
   }
 
 }
@@ -36,41 +36,13 @@
 
 @media only screen and (max-width: 769px) {
 
-  .head {
-    margin: 0;
-    padding: 0;
-  }
-  .mainImg {
-    height: 20vw;
-  }
-  .pslogo {
-    max-width: 6vw;
-    }
-    .frame {
-      box-shadow: 0 0 0;
-      padding: 0 0 0 0;
-    }
-  ul {
-    padding-left: 0%;
-    padding: 0%;
-    margin: 0%;
-    position: relative;
-    overflow:visible;
-    }
-
-  p {
-  padding: 0.5vw !important;
-  margin: 0.5vw!important;
-  font-size: 0.8vw !important;
-  }
-
-  body {
-    margin: 0;
-  }
+ li{font-size: 3vw;}
+ 
 
   li a {
     width: 100vw;
     text-align: left;
+    font-size: 10vw;
     }
 
   .li {
@@ -94,19 +66,7 @@
   padding: 1vw;
   }
   
-label {
-  transform: translateX(-20vw);
-}
-#footer {
-  display: none;
-}
-.footer {
-  transform: translateX(5vw);
-}
-footer {
-  padding: 1vw !important;
-  margin-bottom: 0;
-}
+
 .burgerMain {
   display: block;
 }
