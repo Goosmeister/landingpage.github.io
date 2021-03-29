@@ -1,11 +1,11 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
  text-rendering: optimizeLegibility;
  font-family: Arial,sans-serif;
- 
  text-align: center;
  width: 100%;
  display: flex;
@@ -99,11 +99,17 @@ footer {
 text-align: center;
 }
 .footer {
+  
  transform: translateX(5vw);
 }
 #footer {
   transform: translateX(-5vw);
 }
+
+footer li a{
+  font-size: 3vw;
+}
+
 .left, .right {
   float: left;
   width: 20vw;

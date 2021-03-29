@@ -1,21 +1,31 @@
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
   .mainlogodiv {
     padding:5vw;
     margin:5vw;
   }
 
-  .topnav a {
+  .pslogo {
+    max-width: 10vw;
+    
+    }
+.imgG{
+  width: 50vw;
+}
+  .topnav li a {
     float: left;
     text-align: center;
-    padding: 1.25vw ;
-    font-size: 1.2vw;
+    padding: 1vw ;
+    font-size: 1vw;
+    padding-top: 1.3vw;
   }
-
+.topnav{
+  padding: 0vw;
+}
   .menuimg {
     float: right;
     width: 10vw;
     max-width: 30vw;
-    padding: 0.5vw;
+    padding: 0.05vw;
   }
 
   .control-me{
@@ -27,14 +37,29 @@
   }
 
   iframe {
-  width: 60vw;
-  height: 35vw;
+  width: 50vw;
+  height: 30vw;
   }
 
+p{
+  font-size: 0.9vw !important;
+  line-height: double !important;
+  padding: 0 20vw 0 20vw !important;
+  margin: 5vw !important;
+  }
+  h3{
+    font-size: 2vw !important;
+  }
+  h1{
+    font-size: 3vw !important;
+  }
+  .footer{
+    font-size: 1vw ;
+  }
 }
 
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
 
  li{font-size: 3vw;}
  
