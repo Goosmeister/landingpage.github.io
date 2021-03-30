@@ -2,28 +2,21 @@
 
 .pslogo {
 max-width: 30vw;
-
+filter: drop-shadow(0rem 0rem 0.6rem rgba(0, 0, 0, 1));
 }
 .mainlogodiv {
   padding:10vw;
-  margin:10vw;
-}
-.frame {
-  padding: 0.25vw;
-  box-shadow:  inset 0 0 0.625vw black ;
-  margin-top: 2vw;
-  margin-bottom: 5vw;
-  object-fit: cover;
+  margin:10vw;+
+  
 }
 .mainImg {
-  padding: 1vw;
   object-fit: cover;
-  height: 40vw;
-  width: 98vw;
-  box-shadow:  inset 0 0 0.625vw black ;
+  height: 60vw;
+  width: 100vw;
 }
 .menuimg {
   width: 20vw;
+  filter: drop-shadow(0rem 0rem 0.1rem rgba(255, 255, 255, 1));
 }
 .imgG {
   color: white;
@@ -32,7 +25,7 @@ max-width: 30vw;
   border-style: solid;
   align-items: center;
   background-color: white;
-  max-width: 60vw;
+  max-width: 90vw;
   height: auto;
   align-items: center;
   padding: 1.25vw;

@@ -1,13 +1,13 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 html {
  text-rendering: optimizeLegibility;
  font-family: Arial,sans-serif;
  text-align: center;
- width: 100%;
  display: flex;
  flex-direction: column;
 }
@@ -35,10 +35,15 @@ p {
   text-align: justify;
   padding: 0.5vw 0.5vw;
   font-family: 'Playstation SST',Arial,Helvetica,sans-serif;
-  font-size: 4vw;
+  font-size: 3.5vw;
   line-height: 1.8;
   letter-spacing: 0.0125vw;
 }
+
+iframe {
+  width: 90vw;
+  height: 50vw;
+  }
 
 .link {
  text-decoration: underline; 
@@ -71,20 +76,21 @@ h3 {
   top: 0;
   left: 0; 
   width: 100vw;
-  background: white;
+
   box-shadow: 0 0 0.9375rem #002e69;
 }
 
 .topnav a {
   display: flex;
   flex: 1;
-  float: left;
-  color: black;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 0.1vw black;
   text-align: center;
   padding: 5vw ;
-  font-size: 8vw;
+  font-size: 5vw;
   text-decoration: none;
-  background-color: white;
+  
 }
 
 .topnav a.active {
@@ -107,7 +113,12 @@ text-align: center;
 }
 
 footer li a{
-  font-size: 3vw;
+  font-size: 5vw;
+  line-height: double;
+}
+footer{
+
+  line-height: double;
 }
 
 .left, .right {
